@@ -1,8 +1,9 @@
 package com.spring.dependency.injection.spring.injection.Service;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class GreetingServiceImplSecond implements GreetingService {
     @Override
     public String sayGreeting() {
